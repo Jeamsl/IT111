@@ -8,5 +8,6 @@ class FirstProgram {
         System.out.println(output);
         String output2 = "This is my first java assignment";
         System.out.println(output2);
+
     }
 }
