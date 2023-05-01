@@ -24,7 +24,7 @@ class gradeAveraging {
         average = total / counter;
         System.out.println("You have earned at average grade of " + average);
 
-        if (average >= 90 && average < 100) {
+        if (average >= 90 && average <= 100) {
             letterGrade = 'A';
             message = "Excellent work!";
         } else if (average >= 80 && average < 90) {
