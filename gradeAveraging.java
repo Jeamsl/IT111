@@ -22,7 +22,7 @@ class gradeAveraging {
 
         counter -= 1;
         average = total / counter;
-        System.out.println("You have earned at average grade of " +average);
+        System.out.println("You have earned at average grade of " + average);
 
         if (average >= 90 && average <= 100) {
             letterGrade = 'A';
@@ -41,6 +41,7 @@ class gradeAveraging {
             message = "Not a passing grade";
         }
 
-        System.out.println("You have earned the following letter grade " + letterGrade + " and here is the message: " + message);
+        System.out.println(
+                "You have earned the following letter grade " + letterGrade + " and here is the message: " + message);
     }
 }
